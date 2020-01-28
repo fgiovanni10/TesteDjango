@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    
+    <meta charset="UTF-8">
+	<title>Hybroo - Login</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <link href="./static/css/login.css" rel="stylesheet" type="text/css">
+    <script src="./static/js/login.js"></script>
+	
+	
+</head>
+<body>
+
+
+<div class="col-lg-4 col-md-7 col-sm-6 col-xs-12 login-card">
+
+
+    <form id="login-form" class="col-lg-12">
+
+
+        <div class="col-lg-12 logo-kapsul">
+            <img width="400" class="logo" src="./static/css/img/hbro.png" alt="Logo" />
+        </div>
+
+
+        <div style="clear:both;"></div>
+
+
+        <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">User</span></label>
+        </div>
+
+
+
+        <div class="group">
+            <input type="password" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Password</span></label>
+        </div>
+
+
+
+        <a href="{{ url_for('dashboard') }}" class="giris-yap-buton">Login</a>
+
+
+        <div class="forgot-and-create tab-menu">
+            <a class="sifre-hatirlat-link" href="javascript:void('sifre-hatirlat-link');">Forget your Password?</a>
+            <a class="hesap-olustur-link" href="javascript:void('hesap-olustur-link');">Create a account</a>
+        </div>
+
+
+    </form>
+
+    <form id="kayit-form" class="col-lg-12">
+
+        <div class="col-lg-12 logo-kapsul">
+            <img width="400" class="logo" src="./static/css/img/hbro.png" alt="Logo" />
+        </div>
+        
+        <div style="clear:both;"></div>
+
+
+        <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-ikon">person_outline</i><span class="span-input">User</span></label>
+        </div>
+
+
+        <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+        </div>
+
+        <div class="group">
+            <input type="password" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Password</span></label>
+        </div>
+
+        <div class="group">
+            <input type="password" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-sifre-ikon">lock</i><span class="span-input">Repeat Password</span></label>
+        </div>
+
+        <a href="javascript:void(0);" class="kayit-ol-buton">Create Account</a>
+
+        <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Already have a account? Login</a>
+
+    </form>
+
+    <form id="sifre-hatirlat-form" class="col-lg-12">
+
+        <div class="col-lg-12 logo-kapsul">
+            <img width="400" class="logo" src="./static/css/img/hbro.png" alt="Logo" />
+        </div>
+
+        <div style="clear:both;"></div>
+
+
+        <div class="group">
+            <input type="text" required>
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label><i class="material-icons input-ikon">mail_outline</i><span class="span-input">E-Mail</span></label>
+        </div>
+
+        <a href="javascript:void(0);" class="sifre-hatirlat-buton">Send Email</a>
+
+        <a class="zaten-hesap-var-link" href="javascript:void('zaten-hesap-var-link');">Already have a account? Login</a>
+
+    </form>
+</div>
+
+	
+</body>
+</html>

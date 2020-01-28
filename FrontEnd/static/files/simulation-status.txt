@@ -1,0 +1,4 @@
+Total of simulations: 50
+Executed: 27
+Average Time: 897.1222222222221
+Time Left: 20633.81111111111

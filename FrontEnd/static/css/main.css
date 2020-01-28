@@ -1,0 +1,94 @@
+.navbar{ background:#2D91CF;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:hover{ background: #f4f4f4; color: #f97300; }
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+.header{
+ background-color:#dfe2e2;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin-left: 20%;
+    padding: 2em;
+}
+.description h1{
+ color:#F97300 ;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+  position: absolute;
+ border:1px  solid #F97300;
+ background:#F97300;
+ color:#fff;
+ margin-top: auto;
+ margin-left:2%;
+}
+#testimonials {
+  text-align: center;
+  background-color: #2D91CF /*#Ef8172*/;
+  color: #fff;
+}
+
+h2.test {
+  font-family: "Ubuntu";
+  font-weight: bolder;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+#cta {
+  background-color: #dfe2e2;
+  padding: 100px;
+  text-align: center;
+}
+
+#footer {
+  text-align: center;
+  padding: 100px;
+  background-color: #2D91CF;
+}
+.image-preview-input {
+    position: relative;
+  overflow: hidden;
+  margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
